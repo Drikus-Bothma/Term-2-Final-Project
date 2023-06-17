@@ -1,92 +1,174 @@
 body{
-    background-color: rgba(153,193,201,255);
+    height: 866px;
+    background-image: url(../assets/cover.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-form{
-    width: 50%;
-    margin:  0 auto;
-    margin-top: 100px;
-    border: 4px solid black;
-    border-radius: 10px;
-}
-
-.left{
-    width: 80%;
-    margin-left: 10%;
-    float: left;
-    height: 130px;
-}
-
-.right{
-    height: 130px;
-    width: 40%;
-    float: left;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-   
-}
-
-.orderCost{
-    background-color: #f7f7f7;
-    font-size: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 5px;
-}
-
-.order-item{
+footer{
     width: 100%;
-    height: 50px;
-    background-color: #f7f7f7;
-    border-radius: 5px;
-    margin-top: 15px;
-}
-
-input{
-    margin-top: 15px;
-}
-
-select{
-    margin-top: 15px;
-}
-
-.btn{
-    margin: 20px;
-}
-
-.sauce-options{
-    width: 33%;
-    height: 100px;
+    height: 81px;
+    background-color: darkolivegreen;
     margin-top: 20px;
-    padding-left: 30px;
-    float: left;
 }
 
-.sauce-options h3{
-   margin-left:  -20px;
-   margin-bottom: 20px;
+.col-8{
+    margin-top: 50px;
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+}
+
+.btn3{
+    height: 50px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.btn4{
+    height: 50px;
+    float: right;
+    margin-right: -149px;
+    margin-top: 80px;
+}
+
+.priceBox{
+    width: 150px;
+    height: 150px;
+    padding-top: 50px;
+    font-size: xx-large;
+    margin-right: 100px;
+    text-align: center;
+    margin-left: 420px;
+    margin-bottom: -159px;
+}
+.form1{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.nameSandwich{
+    width: 366px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+.input-group{
+    margin-top: 10px;
 }
 
 .toppings{
-    width: 66%;
-    margin-top: 20px;
-    float: left;
-    padding-left: 20px;
+    width: 600px;
 }
 
-.toppings h3{
-    margin-left:  -20px;
-    margin-bottom: 20px;
+.sauces{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 17px;
 }
 
-.top-check{
-    width: 33%;
-    float: left;
+.drinks{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 5px;
 }
 
-.output{
-    width: 50%;
-    margin:  0 auto;
+
+
+.ingredients{
+    width: 320px;
+}
+
+.order{
     margin-top: 50px;
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -20px;
+}
+
+.orderCard{
+    width: 350px;
+    height: auto;
+    color: black;
+    background-color: rgb(255, 190, 38);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+
+.finalOrder{
+    margin-left: 230px;
+    margin-top: -40px;
+}
+
+.orderPrice{
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
+.social1{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: -60px;
+}
+
+.social2{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: -60px;
+}
+
+.social3{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 150px;
+    margin-top: -60px;
+}
+
+.social4{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 200px;
+    margin-top: -60px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background-image: url(../assets/44103191.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.copyR{
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+    margin-bottom: 0;
 }

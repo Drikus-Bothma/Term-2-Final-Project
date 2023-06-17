@@ -1,81 +1,45 @@
-html, body{
-    margin: 0;
-    padding: 0;
-}
-
-header{
-    width: 100%;
+body{
     height: 866px;
     background-image: url(../assets/cover.jpg);
     background-position: center;
     background-size: cover;
 }
 
-body{
-    background-color: rgba(153,193,201,255);
+.navbar{
+    margin-bottom: 40px;
 }
 
-h1{
-    padding-top: 20px;
+.order{
+    margin-top: 50px;
+    background-color: white;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: -20px;
 }
 
-h2{
-    text-align: center;
-    padding-top: 20px;
-}
-
-footer{
-    width: 100%;
-    height: 80px;
-    background-color: darkolivegreen;
-    margin-top: 20px;
-}
-
-.slogan{
-    text-align: center;
-    font-size: 80px;
-    font-family: 'Playfair', serif;
-}
-
-.intro{
-    font-size: large;
-    text-align: center;
-}
-
-.col-6{
-    width: 45%;
-    height: 500px;
-    margin-top: 140px;
-}
-
-.left{
-    background-image: url(../assets/44103191.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 48%;
-}
-
-.right{
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
-    color: white;
-}
-
-.col-12{
-    text-align: center;
-    margin-top: 10px;
+.orderCard{
+    width: 600px;
+    height: auto;
+    color: black;
+    background-color: rgb(255, 190, 38);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 1px;
     margin-bottom: 10px;
+    margin-left: 40px;
 }
 
-.line{
-    width: 100%;
-    height: 5px;
-    background-color: black;
+.finalOrder{
+    margin-left: 230px;
+    margin-top: -40px;
 }
 
-.subh{
-    text-align: center;
-    margin-bottom: 30px;
+.orderPrice{
+    margin-left: 200px;
+    margin-top: -30px;
 }
 
 .social1{
@@ -134,15 +98,41 @@ footer{
     margin-bottom: 0;
 }
 
-.btn{
-    margin-left: 41px;
+.showOrder{
+    float: left;
 }
 
-.btn2{
-    margin-left: 525px;
-    margin-top: 20px;
+.totalCost{
+    width: 600px;
+    height: 644px;
+    margin-right: 40px;
+    text-align: center;
+    float: right;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 10px;
 }
 
-.btn3{
-    margin-top: 20px;
+.form-control{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn1{
+    margin-top: 50px;
+    
+}
+
+.placeOrder{
+    float: left;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: darkolivegreen;
+    margin-top: 30px;
+    float: left;
 }
